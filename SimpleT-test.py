@@ -2,9 +2,9 @@ import pandas as pd
 import scipy.stats as stats
 
 # 读取CSV文件
-data = pd.read_csv(r'')  # 将'path_to_your_file.csv'替换为您文件的路径
+data = pd.read_csv(r'')  # 将'path_to_your_file.csv'替换为自己的文件的路径
 
-# 假设您的两个样本组在不同的列，例如'group1'和'group2'
+# 假设数据分为两个不同的sample
 sample1 = data['Sample1']
 sample2 = data['Sample2']
 
